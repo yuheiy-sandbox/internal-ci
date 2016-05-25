@@ -9,10 +9,14 @@ dependencies:
 
 test:
   override:
-    - npm run build
+    - exit 0
 
 deployment:
   staging:
     branch: development
     commands:
       - bash ./scripts/deploy-to-staging.sh
+  publish:
+    branch: master
+    command:
+      - bash ./scripts/publish.sh
