@@ -20,3 +20,8 @@ deployment:
     branch: master
     commands:
       - bash ./scripts/publish.sh
+
+general:
+  branches:
+    ignore:
+      - publish
