@@ -18,5 +18,5 @@ deployment:
       - bash ./scripts/deploy-to-staging.sh
   publish:
     branch: master
-    command:
+    commands:
       - bash ./scripts/publish.sh
