@@ -7,8 +7,12 @@ dependencies:
   cache_directories:
     - node_modules
 
+test:
+  override:
+    - npm run build
+
 deployment:
   staging:
     branch: development
     commands:
-      - . ./scripts/deploy-to-staging.sh
+      - bash ./scripts/deploy-to-staging.sh

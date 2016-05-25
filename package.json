@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "jade src/* -o dist/",
-    "postinstall": "npm run build"
+    "build": "jade src/* -o dist/"
   },
   "repository": {
     "type": "git",
