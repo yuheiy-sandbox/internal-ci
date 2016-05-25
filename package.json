@@ -1,0 +1,22 @@
+{
+  "name": "internal-ci",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "jade src/* -o dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuheiy-sandbox/internal-ci.git"
+  },
+  "author": "Yuhei Yasuda <yuhei@ryden.co.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuheiy-sandbox/internal-ci/issues"
+  },
+  "homepage": "https://github.com/yuheiy-sandbox/internal-ci#readme",
+  "devDependencies": {
+    "jade": "^1.11.0"
+  }
+}
